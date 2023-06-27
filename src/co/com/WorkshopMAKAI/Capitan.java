@@ -10,4 +10,10 @@ public class Capitan {
         this.apellido = apellido;
         this.matriculaDeNavegacion = matriculaDeNavegacion;
     }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", apellido: " + apellido +
+                ", matricula de navegación: " + matriculaDeNavegacion;
+    }
 }
