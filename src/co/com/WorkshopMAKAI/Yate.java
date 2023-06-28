@@ -21,6 +21,6 @@ public class Yate extends Embarcacion{
     public String toString() {
         return "Yate: " + super.toString() +
                 ", cantidad de camarotes: " + cantidadDeCamarotes +
-                ", lujoso: " + lujoso + ".\n";
+                ", lujoso: " + lujoso;
     }
 }

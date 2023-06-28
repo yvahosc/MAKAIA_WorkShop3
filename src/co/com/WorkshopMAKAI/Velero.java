@@ -21,6 +21,6 @@ public class Velero extends Embarcacion{
     public String toString() {
         return "Velero: " + super.toString() +
                 ", cantidad de mástiles: " + cantidadDeMastiles +
-                ", grande: " + grande + ".\n";
+                ", grande: " + grande;
     }
 }
