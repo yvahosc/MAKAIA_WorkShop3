@@ -21,4 +21,11 @@
   * En el caso de los yates debe ser posible comprarlos. Un yate tiene mayor lujo si tiene mas de 7 camarotes.
   * Es importante poder evaluar en un velero si es grande, los velos grandes son aquellos que superan los 4 mastiles.
 
-### Para la solución del ejercicio se plantea un sistema en el que es posible agregar, alquilar, devolver y vender embarcaciones (yates y veleros) siguiendo las reglas de negocio planteadas en el enunciado.
+### Para la solución del ejercicio se plantea: un sistema en el que es posible agregar, mostrar, alquilar, devolver y vender embarcaciones (yates y veleros) siguiendo las reglas de negocio planteadas en el enunciado, con algunas validaciones creadas por el grupo como:
+* Verificar si la embarcación ya fue agregada al sistema antes de realizar cualquier proceso con ella, sea alquilar, devolver o vender.
+* Verificar si la embarcación ya existe en el sistema antes de agregarla a este.
+* Verificar la disponibilidad o no de la embarcación antes de alquilarla, venderla o incluso devolverla.
+* Verificar si la embarcación es o no del tipo que puede ser vendido antes de realizar el proceso de venta.
+
+### Para verificar el funcionamiento del sistema se crearon en el main del proyecto una serie de instrucciones que permitían poner a prueba las reglas de negocio y las validaciones creadas mientras sus resultados iban siendo mostrados en la consola.
+
